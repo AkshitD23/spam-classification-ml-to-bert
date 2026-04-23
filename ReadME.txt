@@ -127,3 +127,10 @@ This project demonstrates the progression from traditional machine learning mode
 It highlights why transformer-based models like BERT are state-of-the-art for NLP tasks.
 
 ---
+
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.heatmap(cm, annot=True, fmt='d')
+plt.title("Confusion Matrix")
