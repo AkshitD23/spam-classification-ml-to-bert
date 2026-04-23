@@ -41,7 +41,7 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ### 🔹 Text Classification (BERT)
 
-* Accuracy: **99%**
+* Accuracy: <b>99%</b>
 * Precision (Spam): **0.99**
 * Recall (Spam): **0.97**
 
