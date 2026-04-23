@@ -10,6 +10,7 @@ The project covers:
 
 * Image classification using CNNs
 * Text classification using TF-IDF, Embeddings, LSTM, Attention, and BERT
+* This project demonstrates the transition from traditional ML to modern transformer-based NLP, explaining why each model exists rather than just applying them
 
 ---
 
@@ -57,6 +58,12 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ---
 
+## 📊 Confusion Matrix
+
+![Confusion Matrix](/text_analysis/assets/confusion_matrix.png)
+
+---
+
 ## 🔍 Key Insights
 
 * Feature representation is more important than model complexity
@@ -68,6 +75,25 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ---
 
+## Sample Predictions
+* Input: "Free coffee today"
+  Prediction: HAM
+
+* Input: "Win a free iPhone now"
+  Prediction: SPAM
+
+  ---
+
+## 📈 Performance Improvement
+
+- Logistic Regression → poor recall due to linear boundary
+- Neural Network → improved recall via non-linearity
+- LSTM → better contextual understanding
+- Attention → improved long-range dependency handling
+- BERT → best performance due to pretrained contextual embeddings
+
+---
+  
 ## 🛠️ Tech Stack
 
 * Python
@@ -128,9 +154,3 @@ It highlights why transformer-based models like BERT are state-of-the-art for NL
 
 ---
 
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-sns.heatmap(cm, annot=True, fmt='d')
-plt.title("Confusion Matrix")
