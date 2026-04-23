@@ -88,6 +88,7 @@ image_classification/
 text_classification/
     ├── notebooks/
     └── data/
+    |-- predict.py.
 ```
 
 ---
@@ -111,6 +112,8 @@ pip install -r requirements.txt
 * `text_classification/`
 * `image_classification/`
 
+4. Run inference from:
+* `python text_classification/predict.py`
 ---
 
 ## 🎯 Conclusion
