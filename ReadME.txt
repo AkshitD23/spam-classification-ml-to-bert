@@ -41,9 +41,9 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ### 🔹 Text Classification (BERT)
 
-* Accuracy: <b>99%</b>
-* Precision (Spam): **0.99**
-* Recall (Spam): **0.97**
+* Accuracy: 99%
+* Precision (Spam): 0.99
+* Recall (Spam): 0.97
 
 👉 High precision ensures minimal false positives
 👉 Slightly lower recall indicates a few missed spam messages
@@ -52,7 +52,7 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ### 🔹 Image Classification (CNN)
 
-* Accuracy: **~99%**
+* Accuracy: ~99%
 * Strong performance due to spatial feature learning via convolutional filters
 
 ---
