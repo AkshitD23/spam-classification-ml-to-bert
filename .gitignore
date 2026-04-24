@@ -7,5 +7,4 @@ __pycache__/
 spam_classification/results/
 spam_classification/bert_model/*
 .DS_Store
-spam_classification/assets
 digit_classification/*
