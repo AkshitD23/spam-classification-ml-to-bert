@@ -54,6 +54,8 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ![Confusion Matrix](/spam_classification/assets/confusion_matrix.png)
 
+* The confusion matrix shows near-zero false positives and very few false negatives, indicating strong precision while maintaining high recall.
+
 ---
 
 ## 🔍 Key Insights
