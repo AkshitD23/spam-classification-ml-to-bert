@@ -8,7 +8,6 @@ The goal is not just to build a high-performing model, but to understand **why e
 
 The project covers:
 
-* Image classification using CNNs
 * Text classification using TF-IDF, Embeddings, LSTM, Attention, and BERT
 * This project demonstrates the transition from traditional ML to modern transformer-based NLP, explaining why each model exists rather than just applying them
 
@@ -40,7 +39,7 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ## 📊 Results
 
-### 🔹 Text Classification (BERT)
+### 🔹 Spam Classification (BERT)
 
 * Accuracy: 99%
 * Precision (Spam): 0.99
@@ -48,13 +47,6 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 👉 High precision ensures minimal false positives
 👉 Slightly lower recall indicates a few missed spam messages
-
----
-
-### 🔹 Image Classification (CNN)
-
-* Accuracy: ~99%
-* Strong performance due to spatial feature learning via convolutional filters
 
 ---
 
@@ -107,11 +99,7 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 ## 📁 Project Structure
 
 ```
-image_classification/
-    ├── notebooks/
-    └── MNIST/
-
-text_classification/
+spam_classification/
     ├── notebooks/
     └── data/
     |-- predict.py.
@@ -135,8 +123,7 @@ pip install -r requirements.txt
 
 3. Run notebooks from:
 
-* `text_classification/`
-* `image_classification/`
+* `spam_classification/`
 
 4. Run inference from:
 * `python text_classification/predict.py`
