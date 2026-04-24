@@ -52,7 +52,7 @@ Instead of directly applying advanced models like BERT, this project focuses on 
 
 ## 📊 Confusion Matrix
 
-![Confusion Matrix](/text_analysis/assets/confusion_matrix.png)
+![Confusion Matrix](/spam_classification/assets/confusion_matrix.png)
 
 ---
 
