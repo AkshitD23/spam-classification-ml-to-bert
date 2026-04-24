@@ -4,7 +4,8 @@ __pycache__/
 .ipynb_checkpoints/
 *.h5
 *.pt
-bert_model/
-results/
-text_analysis/bert_model/
+spam_classification/results/
+spam_classification/bert_model/*
 .DS_Store
+spam_classification/assets
+digit_classification/*
